@@ -11,4 +11,4 @@ app.use(express.json());
 app.use("/api/v1", rootRouter);
 
 
-app.listen(4500)
+app.listen(process.env.PORT || 4500)
